@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 
 import styles from './styles.css'
 
+export { default as Button } from './lib/components/Button/Button.js'
+
 export default class ExampleComponent extends Component {
   static propTypes = {
     text: PropTypes.string
