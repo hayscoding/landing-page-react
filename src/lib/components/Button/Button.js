@@ -8,7 +8,7 @@ class Button extends Component {
 
     return (
       <div className={styles.small} onClick={onClick ? onClick : () => {}}>
-        <span className="word">{showText()}</span>
+        <span className={styles.word}>{showText()}</span>
       </div>
     );
   }
