@@ -1,6 +1,6 @@
 {
   "name": "landing-page-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React component library to quickly create landing pages.",
   "main": "index.js",
   "scripts": {
