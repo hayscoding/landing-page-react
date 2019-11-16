@@ -7,7 +7,7 @@ class Button extends Component {
     const showText = function() {return text ? text : () => { return " " }}
 
     return (
-      <div className={styles.small} onClick={onClick ? onClick : () => {}}>
+      <div className={styles.button} onClick={onClick ? onClick : () => {}}>
         <span className={styles.word}>{showText()}</span>
       </div>
     );
