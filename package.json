@@ -11,7 +11,13 @@
     "url": "git+https://github.com/HaysS/landho.git"
   },
   "keywords": [
-    "React"
+    "react",
+    "react-native",
+    "react-component",
+    "map",
+    "mapview",
+    "google-maps",
+    "mapkit"
   ],
   "author": "Hays Stanford",
   "license": "MIT",
