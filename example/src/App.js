@@ -7,7 +7,7 @@ export default class App extends Component {
     return (
       <div>
         <ExampleComponent text='Modern React component module' />
-        <Button text='BUTTON TEXT'/>
+        <Button text='BUTTON TEXT' onClick={() => {console.log('button clicked.')}}/>
       </div>
     )
   }
