@@ -1,19 +1,13 @@
 import React, { Component } from "react";
-// import classNames from "classnames";
-// import "./Button.css";
+import styles from "./Button.css";
 
 class Button extends Component {
   render() {
     const { onClick, text } = this.props;
+    const showText = function() {return text ? text : () => { return " " }}
 
-    // const isSmall = this.props.className ? this.props.className.indexOf('small') >= 0 : false
-    // const classes = isSmall ? classNames(this.props.className) : classNames("fancy-button", this.props.className);
-
-    const showText = function() { return typeof text !== undefined ? text : () => { return "" } }
-    //className={classes} href="#menu" onClick={onClick ? onClick : () => { return null }}
-    
     return (
-      <div> 
+      <div className={styles.small} onClick={onClick ? onClick : () => { return null }}>
         <span className="word">{showText()}</span>
       </div>
     );
