@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HaysS/landho.git"
+    "url": "git+https://github.com/HaysS/landing-page-react.git"
   },
   "keywords": [
     "react",
@@ -22,7 +22,7 @@
   "author": "Hays Stanford",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HaysS/landho/issues"
+    "url": "https://github.com/HaysS/landing-page-react/issues"
   },
-  "homepage": "https://github.com/HaysS/landho#readme"
+  "homepage": "https://github.com/HaysS/landing-page-react#readme"
 }
