@@ -1,0 +1,22 @@
+{
+  "name": "landho",
+  "version": "0.0.1",
+  "description": "React component library to quickly create landing pages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaysS/landho.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Hays Stanford",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HaysS/landho/issues"
+  },
+  "homepage": "https://github.com/HaysS/landho#readme"
+}
